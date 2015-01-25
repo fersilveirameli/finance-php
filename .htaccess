@@ -1,0 +1,4 @@
+AuthType Basic
+AuthUserFile "/home/fsilveir/.htpasswds/public_html/finance/passwd"
+require valid-user
+AuthName "finance"

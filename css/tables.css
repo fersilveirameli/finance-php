@@ -1,0 +1,88 @@
+@CHARSET "ISO-8859-1";
+
+.fm-table-pending {
+	width: 100%;
+}
+
+.fm-table-pending tbody {
+	color: red;
+}
+
+.fm-table {
+	width: 100%;
+	margin: 10px 0;
+	border-collapse: collapse;
+}
+
+.fm-table thead th {
+	text-align: left;
+	padding: 3px 4px;
+	border-top: solid #DFDFDF 1px;
+	border-bottom: solid #DFDFDF 1px;
+}
+
+.fm-table td {
+	border-bottom: solid #DFDFDF 1px;
+	padding: 4px;
+}
+
+.fm-table tbody td {
+	background-color: #EFF2F4;
+}
+
+.fm-table td.income {
+	text-align: right;
+	color: blue;
+}
+
+.fm-table td.cost {
+	text-align: right;
+	color: red;
+}
+
+.fm-td-120 {
+	width: 120px;
+}
+
+.fm-th-acoes {
+	width: 120px;
+	text-align: center;
+}
+
+.fm-td-acoes {
+	text-align: right;
+}
+
+.fm-td-checkbox {
+	width: 30px;
+}
+
+.fm-td-220 {
+	width: 220px;
+}
+
+.fm-td-140 {
+	width: 140px;
+}
+
+.fm-td-180 {
+	width: 180px;
+}
+
+.fm-td-100 {
+	width: 100px;
+}
+
+.fm-td-date {
+	width: 80px;
+}
+
+.editbox {
+	display: none;
+	width: 100%;
+}
+
+.edit_td:hover {
+	background: url(../img/edit.png) right no-repeat #EFF2F4;
+	cursor: pointer;
+}
